@@ -39,7 +39,7 @@ Component-by-component (detailed)
 Responsibilities
 
 
-* Drawing tools (pen, brush, eraser optional, stamp tool for generative fragments).
+* Drawing tools (pen, brush, zero eraser to simulate true graffiti).
 
 
 * Convert pointer input → compressed stroke objects (smoothed point arrays or paths).
@@ -361,3 +361,4 @@ Snapshot export to Storage and snapshot-based page bootstrap (snapshot + replay 
 
 
 Basic admin UI for a simple rate-limit dashboard.
+
